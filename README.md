@@ -16,16 +16,16 @@ Alternatively, you can also open `dist/index.html` in the browser and check the 
 
 ```
 Uncaught ReferenceError: process is not defined
-    at 8700 (bundle.js:1:688093)
-    at r (bundle.js:1:865837)
-    at 762 (bundle.js:1:740917)
-    at r (bundle.js:1:865837)
-    at 4273 (bundle.js:1:835097)
-    at r (bundle.js:1:865837)
-    at 1226 (bundle.js:1:673397)
-    at r (bundle.js:1:865837)
-    at 548 (bundle.js:1:646100)
-    at r (bundle.js:1:865837)
+    at eval (core.js:18:17)
+    at ./node_modules/@babel/types/lib/definitions/core.js (bundle.js:1678:1)
+    at __webpack_require__ (bundle.js:2329:42)
+    at eval (index.js:74:1)
+    at ./node_modules/@babel/types/lib/definitions/index.js (bundle.js:1722:1)
+    at __webpack_require__ (bundle.js:2329:42)
+    at eval (validate.js:9:20)
+    at ./node_modules/@babel/types/lib/validators/validate.js (bundle.js:2184:1)
+    at __webpack_require__ (bundle.js:2329:42)
+    at eval (validateNode.js:7:17)
 ```
 
 --------------------------------
