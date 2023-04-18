@@ -1,0 +1,24 @@
+{
+  "name": "sample_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "NODE_ENV='development' npm run clean && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean" : "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "babel-loader": "9.1.2",
+    "html-webpack-plugin": "5.5.1",
+    "webpack": "5.79.0",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "4.13.3",
+    "@endo/static-module-record": "0.7.18"
+  }
+}
