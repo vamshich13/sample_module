@@ -13,6 +13,7 @@ npm run start
 
 Open http://localhost:8080/ in browser and check the error in the Inspect->Console
 
+```
 Uncaught ReferenceError: process is not defined
     at 8700 (bundle.js:1:688093)
     at r (bundle.js:1:865837)
@@ -24,5 +25,6 @@ Uncaught ReferenceError: process is not defined
     at r (bundle.js:1:865837)
     at 548 (bundle.js:1:646100)
     at r (bundle.js:1:865837)
+```
 
 --------------------------------
